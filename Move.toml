@@ -1,0 +1,16 @@
+[package]
+name = "woosh4"
+version = "1.0.0"
+authors = []
+
+[addresses]
+woosh4 = "0xd58057486691cb9e339ce1a6d79906e88e2819f3a2ab83e3e6241a5059cb270e"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
